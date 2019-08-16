@@ -4,7 +4,7 @@ import os
 # Homebrewed
 from env import directory
 
-# directory = '/Users/abhijit/Desktop/code-for-boston/clean-slate/data/Archive/'
+# directory = '/some/folder/'
 for file in os.listdir(directory):
     if not file.endswith(".pdf"):
         continue
