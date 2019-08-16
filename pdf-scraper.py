@@ -1,10 +1,7 @@
 import PyPDF2 as pypdf
 import os
 
-# Homebrewed
-from env import directory
-
-# directory = '/some/folder/'
+directory = '../test-pdfs'
 for file in os.listdir(directory):
     if not file.endswith(".pdf"):
         continue
